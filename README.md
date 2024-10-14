@@ -1,11 +1,10 @@
-# PT_bot
+# Ansible плейбук
 
-Заполните .env
+Необходимо заполнить .env для запуска
 
-Порядок запуска:
-
+Команда для запуска
 ```bash
-sudo docker compose up --build
-sudo docker network create my_network
-sudo docker compose up -d
+ansible-playbook playbook_tg_bot.yaml
 ```
+На машинах должен быть установлен Ansible
+
